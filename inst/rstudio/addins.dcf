@@ -1,0 +1,9 @@
+Name: Find project TODOs
+Description: Find all places of your project which require more work.
+Binding: todor_project_addin
+Interactive: false
+
+Name: Find package TODOs
+Description: Find all places of your package which require more work.
+Binding: todor_package_addin
+Interactive: false
