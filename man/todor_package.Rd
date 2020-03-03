@@ -15,8 +15,3 @@ Called on packages. Checks all places in the code which require amendents
 as specified in \code{todo_types}.
 It triggers rstudio markers to appear.
 }
-\examples{
-\donttest{
- todor_package(c("FIXME"))
-}
-}

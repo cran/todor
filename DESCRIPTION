@@ -1,6 +1,6 @@
 Package: todor
 Title: Find All TODO Comments and More
-Version: 0.0.5
+Version: 0.1.0
 Authors@R: person("Dominik", "Krzemiński",
                   email = "raymon92@gmail.com",
                   role = c("aut", "cre"))
@@ -13,8 +13,8 @@ LazyData: true
 RoxygenNote: 6.1.1
 Suggests: testthat
 NeedsCompilation: no
-Packaged: 2019-05-04 10:12:15 UTC; dominik
+Packaged: 2020-03-03 22:03:43 UTC; dominik
 Author: Dominik Krzemiński [aut, cre]
 Maintainer: Dominik Krzemiński <raymon92@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-05-08 10:20:03 UTC
+Date/Publication: 2020-03-04 00:40:02 UTC

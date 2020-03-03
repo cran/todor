@@ -15,8 +15,3 @@ If NULL default items will be used.}
 \description{
 Todor file
 }
-\examples{
-\donttest{
- todor_file("myfile.R")
-}
-}
