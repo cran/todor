@@ -68,8 +68,10 @@ todor <- function(todo_types = NULL, search_path = getwd(), file = NULL) {
       files <- c(files, rhtmlfiles)
     }
     if (getOption("todor_exclude_packrat", TRUE)) {
-      # Remove all filesnames, which include the packrat directory
       files <- files[!stringr::str_detect(files, "/packrat/")]
+    }
+    if (getOption("todor_exclude_renv", TRUE)) {
+      files <- files[!stringr::str_detect(files, "/renv/")]
     }
   }
   else {
@@ -134,9 +136,12 @@ todor_file <- function(file_name, todo_types = NULL) {
 todor_project_addin <- function() {
   project_path <- rstudioapi::getActiveProject()
   if (is.null(project_path))
-    stop(paste0("You're not within R project. Change to project, ",
-                "or use `todor_file` instead."))
-  todor(search_path = project_path)
+    rstudioapi::showDialog("TODOr",
+      paste("You're not within R project. Change to project,",
+            "or use `todor_file` instead.")
+    )
+  else
+    todor(search_path = project_path)
 }
 
 #' Todor package addin
@@ -146,4 +151,16 @@ todor_project_addin <- function() {
 #' @export
 todor_package_addin <- function() {
   todor_package()
+}
+
+#' Todor active file addin
+#'
+#' Calls \code{todor_file} function on active document path.
+#'
+#' @export
+todor_file_addin <- function() {
+  if (nchar(rstudioapi::getActiveDocumentContext()$path) == 0)
+    rstudioapi::showDialog("TODOr","No active document detected.")
+  else
+    todor_file(rstudioapi::getActiveDocumentContext()$path)
 }

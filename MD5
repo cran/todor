@@ -1,11 +1,11 @@
-885802b8f3ff1cdd8dec52b185634631 *DESCRIPTION
+b28ab3f3c36bd3d6424636cd025eb62d *DESCRIPTION
 3ca092d1586539fb3b4f82fb08e1c72d *LICENSE
-152e2b93da8a0f1083e6762ed9e337f2 *NAMESPACE
+cd19579d5d994fbcc8e4b1e15167e522 *NAMESPACE
 e00e4f4b7865af19dca6ac06c9d1abfb *R/files.R
 305263aee361a3f8465cb96540cb0b57 *R/markers.R
 440a5b95fb49b3d5c98f21b144ee2f38 *R/patterns.R
-7f30d358f14e9e096993b3b8a381c54e *R/todor.R
-1e1fe4a2a4d99ac7708c3422b7682d0f *inst/rstudio/addins.dcf
+fad5a1ca0d2f16acda452ec170959823 *R/todor.R
+070e3a41b0fe4d64ef4823892f1425b0 *inst/rstudio/addins.dcf
 e234c3116a1104b83d791b307005d103 *man/build_rstudio_markers.Rd
 0392dbab48e749ebcf1dc1953c3b159d *man/create_markers.Rd
 8689eceab055e51fc8cbdcb14968d5b2 *man/find_package.Rd
@@ -14,6 +14,7 @@ e234c3116a1104b83d791b307005d103 *man/build_rstudio_markers.Rd
 881f933145da6b3a68b12d1d9718947a *man/process_file.Rd
 bc40b0e5fca3e4a10359b15583e0a6b5 *man/todor.Rd
 41bb2e4841d6c1a34b4acbab4f1f7075 *man/todor_file.Rd
+2122718bb506fe98fd0e012458d955fc *man/todor_file_addin.Rd
 ed4e80b78b38dcb21534b7efd6bc2440 *man/todor_package.Rd
 66e1d5f638a1aa12a905bdb66b96c006 *man/todor_package_addin.Rd
 c18250a2c9926ac682cd0f76dc4c3e09 *man/todor_project_addin.Rd
