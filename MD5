@@ -1,13 +1,12 @@
-cb153e12d3bd8e5f75fa20f883facfc8 *DESCRIPTION
+920df3295786136ffda18e0aff24567f *DESCRIPTION
 3ca092d1586539fb3b4f82fb08e1c72d *LICENSE
 df7f1cead57d427bf7a9f53a93d28fa7 *NAMESPACE
 e2b9ec2534b4966b301a68de7c062806 *NEWS.md
 afec95a2d5df3e29d6be7db1dd37aaf3 *R/files.R
-d41d8cd98f00b204e9800998ecf8427e *R/gh.R
 c51b9829579936e7229a1efff7260741 *R/markers.R
 bf7a53804789048f66aed37ac06473d2 *R/patterns.R
-4a88119d13205549180a84af95529731 *R/todor.R
-070e3a41b0fe4d64ef4823892f1425b0 *inst/rstudio/addins.dcf
+897c73e8137869ecf0b2e3553d2c2efc *R/todor.R
+587c39b94d597d55ccb1f0431c9dff97 *inst/rstudio/addins.dcf
 2106d4f62088bc99e53bcd8c59bc1d6d *man/build_markdown_report.Rd
 e234c3116a1104b83d791b307005d103 *man/build_rstudio_markers.Rd
 e5fa63cc7ebd5c70f6719c4c6e491e30 *man/clean_comments.Rd
@@ -17,7 +16,7 @@ e5fa63cc7ebd5c70f6719c4c6e491e30 *man/clean_comments.Rd
 1991324e89184879d906873e9efe32ad *man/find_pattern.Rd
 978419af370d7eb9cb2f8225a65c8d52 *man/list_files_with_extension.Rd
 881f933145da6b3a68b12d1d9718947a *man/process_file.Rd
-32fa12c4287cd5f1a4dc179d6892a4d6 *man/todor.Rd
+bb1f4a48c5e8bbe32fef79d12a2a1a14 *man/todor.Rd
 b3cf2f065d54fe1d4da7843055f0e1d1 *man/todor_file.Rd
 2122718bb506fe98fd0e012458d955fc *man/todor_file_addin.Rd
 ed4e80b78b38dcb21534b7efd6bc2440 *man/todor_package.Rd
@@ -25,5 +24,5 @@ ed4e80b78b38dcb21534b7efd6bc2440 *man/todor_package.Rd
 c18250a2c9926ac682cd0f76dc4c3e09 *man/todor_project_addin.Rd
 b0655e5c60b56dc170d25caafab910f5 *tests/testthat.R
 997d2d3d05416841cfa44fc42c07acd3 *tests/testthat/demo.R
-4c2480aced73e5b9c5e4094a5df89f84 *tests/testthat/test_internal.R
+2dd7bd155df3ff77c5cd0c703e4d5593 *tests/testthat/test_internal.R
 307d265f11071bea59d1e534f37fe0ad *tests/testthat/test_todor.R
